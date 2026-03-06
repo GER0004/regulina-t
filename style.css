@@ -218,3 +218,55 @@ background:#1e3a5f;
 color:white;
 }
 
+.research-section{
+padding:100px 0;
+}
+
+.research-intro{
+max-width:700px;
+margin-top:20px;
+margin-bottom:50px;
+font-size:18px;
+line-height:1.6;
+color:#5a6a7a;
+}
+
+.research-timeline{
+position:relative;
+padding-left:40px;
+}
+
+.research-timeline::before{
+content:"";
+position:absolute;
+left:10px;
+top:0;
+bottom:0;
+width:2px;
+background:#d8dee6;
+}
+
+.research-item{
+display:flex;
+align-items:flex-start;
+margin-bottom:35px;
+}
+
+.research-number{
+font-weight:600;
+font-size:18px;
+margin-right:20px;
+color:#1e3a5f;
+}
+
+.research-content h3{
+margin:0;
+font-size:20px;
+color:#0f172a;
+}
+
+.research-content p{
+margin-top:5px;
+font-size:16px;
+color:#5a6a7a;
+}
