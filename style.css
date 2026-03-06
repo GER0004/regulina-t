@@ -403,7 +403,4 @@ transition:all 0.3s ease;
 position:relative;
 }
 
-.hero-btn:hover{
-background:#1d4ed8;
-transform:translateY(-2px);
-}
+
