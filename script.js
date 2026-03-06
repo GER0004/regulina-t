@@ -34,3 +34,15 @@ playButton.style.display = "none"
 video.addEventListener("ended", () => {
 playButton.style.display = "block"
 })
+
+video.addEventListener("click", () => {
+
+if(video.paused){
+video.play()
+playButton.style.display = "none"
+}else{
+video.pause()
+playButton.style.display = "block"
+}
+
+})
