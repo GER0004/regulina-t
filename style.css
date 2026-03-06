@@ -352,3 +352,8 @@ width:56px;
 height:56px;
 display:block;
 }
+
+.image img{
+width:100%;
+border-radius:20px;
+}
