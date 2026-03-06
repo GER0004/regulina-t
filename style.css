@@ -217,3 +217,16 @@ transition:0.3s;
 background:#1e3a5f;
 color:white;
 }
+
+@media (max-width: 768px){
+
+.container.grid{
+display:flex;
+flex-direction:column;
+}
+
+.container.grid.reverse{
+flex-direction:column;
+}
+
+}
