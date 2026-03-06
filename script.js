@@ -23,3 +23,14 @@ button.textContent = "Read More"
 })
 
 })
+const video = document.getElementById("about-video")
+const playButton = document.getElementById("play-button")
+
+playButton.addEventListener("click", () => {
+video.play()
+playButton.style.display = "none"
+})
+
+video.addEventListener("ended", () => {
+playButton.style.display = "block"
+})
