@@ -347,3 +347,6 @@ align-items:center;
 justify-content:center;
 }
 
+.play-btn svg{
+transform:translateX(2px);
+}
