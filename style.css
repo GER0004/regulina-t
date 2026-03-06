@@ -391,18 +391,17 @@ background-repeat:no-repeat;
 .hero-btn{
 display:inline-block;
 margin-top:35px;
-padding:14px 34px;
+padding:14px 36px;
 background:#2f6df6;
-color:white;
+color:#ffffff;
 font-size:16px;
 font-weight:500;
 text-decoration:none;
 border-radius:8px;
 transition:all 0.3s ease;
 }
-.hero .hero-btn{
-margin-left:auto;
-margin-right:auto;
-display:block;
-width:fit-content;
+
+.hero-btn:hover{
+background:#1d4ed8;
+transform:translateY(-2px);
 }
