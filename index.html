@@ -191,7 +191,7 @@ The Regulina-T™ platform investigates the role of recombinant Regucalcin withi
 </div>
 
 <div class="image">
-<video autoplay muted loop playsinline webkit-playsinline preload="auto">
+<video class="science-video" autoplay muted loop playsinline webkit-playsinline preload="auto">
 <source src="videos/science-animation.mp4" type="video/mp4">
 </video>
 </div>
@@ -425,5 +425,17 @@ REGULINA-T™ Biotechnology Platform
 
 <script src="script.js"></script>
 
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+const video = document.querySelector(".science-video");
+
+if(video){
+video.muted = true;
+video.play().catch(()=>{});
+}
+
+});
+</script>
 </body>
 </html>
