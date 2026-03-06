@@ -347,10 +347,3 @@ align-items:center;
 justify-content:center;
 }
 
-.play-btn::before{
-content:"";
-border-left:18px solid white;
-border-top:11px solid transparent;
-border-bottom:11px solid transparent;
-margin-left:3px;
-}
