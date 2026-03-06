@@ -359,3 +359,10 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 }
+
+.science-img{
+background-image:url("images/science-img.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
