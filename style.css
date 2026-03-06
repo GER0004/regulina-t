@@ -321,25 +321,28 @@ object-fit:cover;
 border-radius:12px;
 }
 
-.about-video{
-position:relative;
-}
-
-#about-video{
-width:100%;
-border-radius:16px;
-}
-
-#play-button{
+.play-btn{
 position:absolute;
 top:50%;
 left:50%;
 transform:translate(-50%,-50%);
-padding:14px 30px;
-background:#0b1c35;
-color:white;
+width:80px;
+height:80px;
+border-radius:50%;
+background:rgba(11,28,53,0.8);
 border:none;
-border-radius:30px;
-font-size:16px;
 cursor:pointer;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.play-btn::before{
+content:"";
+width:0;
+height:0;
+border-left:20px solid white;
+border-top:12px solid transparent;
+border-bottom:12px solid transparent;
+margin-left:5px;
 }
