@@ -399,15 +399,11 @@ font-weight:500;
 text-decoration:none;
 border-radius:8px;
 transition:all 0.3s ease;
+
+position:relative;
 }
 
 .hero-btn:hover{
 background:#1d4ed8;
 transform:translateY(-2px);
-}
-.hero-btn{
-background:red;
-color:white;
-padding:20px;
-display:inline-block;
 }
