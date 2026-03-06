@@ -321,6 +321,16 @@ object-fit:cover;
 border-radius:12px;
 }
 
+.image.about-video{
+position:relative;
+}
+
+#about-video{
+width:100%;
+border-radius:16px;
+display:block;
+}
+
 .play-btn{
 position:absolute;
 top:50%;
@@ -339,8 +349,6 @@ justify-content:center;
 
 .play-btn::before{
 content:"";
-width:0;
-height:0;
 border-left:20px solid white;
 border-top:12px solid transparent;
 border-bottom:12px solid transparent;
