@@ -353,4 +353,8 @@ height:56px;
 display:block;
 }
 
-
+.image img{
+width:100%;
+height:auto;
+border-radius:20px;
+}
