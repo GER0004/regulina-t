@@ -353,4 +353,9 @@ height:56px;
 display:block;
 }
 
-
+.mission-cells{
+background-image: url("images/mission-cells.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
