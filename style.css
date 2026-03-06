@@ -190,3 +190,30 @@ font-size:34px;
 }
 
 }
+
+.more-text{
+max-height:0;
+overflow:hidden;
+transition:max-height 0.5s ease;
+}
+
+.text-block.open .more-text{
+max-height:500px;
+}
+
+.read-more-btn{
+margin-top:15px;
+background:none;
+border:1px solid #1e3a5f;
+color:#1e3a5f;
+padding:10px 20px;
+cursor:pointer;
+border-radius:6px;
+font-size:14px;
+transition:0.3s;
+}
+
+.read-more-btn:hover{
+background:#1e3a5f;
+color:white;
+}
