@@ -6,18 +6,20 @@ menuToggle.addEventListener("click", () => {
 menu.classList.toggle("active")
 
 })
-document.querySelectorAll(".read-more").forEach(button => {
-  button.addEventListener("click", () => {
+document.querySelectorAll(".read-more-btn").forEach(button => {
 
-    const moreText = button.previousElementSibling;
+button.addEventListener("click", () => {
 
-    if (moreText.style.display === "block") {
-      moreText.style.display = "none";
-      button.textContent = "Read More";
-    } else {
-      moreText.style.display = "block";
-      button.textContent = "Hide";
-    }
+const block = button.closest(".text-block")
 
-  });
-});
+block.classList.toggle("open")
+
+if(block.classList.contains("open")){
+button.textContent = "Show Less"
+}else{
+button.textContent = "Read More"
+}
+
+})
+
+})
