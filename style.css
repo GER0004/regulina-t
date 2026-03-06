@@ -349,8 +349,11 @@ justify-content:center;
 
 .play-btn::before{
 content:"";
-border-left:20px solid white;
-border-top:12px solid transparent;
-border-bottom:12px solid transparent;
-margin-left:5px;
+display:block;
+width:0;
+height:0;
+border-left:22px solid white;
+border-top:14px solid transparent;
+border-bottom:14px solid transparent;
+margin-left:3px;
 }
