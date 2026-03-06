@@ -56,7 +56,10 @@ cursor:pointer;
 
 .hero{
 height:90vh;
-background:#0b1c35;
+background-image:url("images/thymus-hero.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 display:flex;
 align-items:center;
 color:white;
