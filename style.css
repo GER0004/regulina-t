@@ -395,31 +395,25 @@ background-repeat:no-repeat;
 
 .hero-btn{
 display:inline-block;
-
 margin-top:36px;
+padding:14px 40px;
 
-padding:14px 38px;
-
-background:rgba(59,130,246,0.85);
-backdrop-filter:blur(6px);
+background:linear-gradient(135deg,#3b82f6,#2563eb);
 
 color:white;
+font-size:16px;
 font-weight:500;
+
+text-decoration:none;
 
 border-radius:10px;
 
-text-decoration:none;
+box-shadow:0 10px 30px rgba(37,99,235,0.35);
 
 transition:all .25s ease;
 }
 
 .hero-btn:hover{
 transform:translateY(-2px);
-background:rgba(37,99,235,0.95);
-}
-
-.hero-btn{
-background:red !important;
-color:white !important;
-padding:20px !important;
+box-shadow:0 14px 40px rgba(37,99,235,0.45);
 }
