@@ -418,3 +418,8 @@ transform:translateY(-2px);
 background:rgba(37,99,235,0.95);
 }
 
+.hero-btn{
+background:red !important;
+color:white !important;
+padding:20px !important;
+}
