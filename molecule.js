@@ -1,4 +1,4 @@
-import * as THREE from './vendor/three.module.js';
+import * as THREE from './three.module.js';
 
 // Procedural, illustrative protein fold. No claim of a measured molecular structure.
 export function createMolecule(stage, reduced) {
